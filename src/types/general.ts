@@ -1,0 +1,1 @@
+export type ty_status = 'success'| 'loading'| 'error';

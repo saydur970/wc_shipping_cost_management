@@ -1,0 +1,80 @@
+.root {
+  position: relative;
+  width: 250px;
+}
+
+.select_box_div {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.boxDisabled {
+  border-color: #d1d1d1;
+}
+
+.select_box {
+  position: relative;
+  padding: 12px 0;
+
+  color: #4b566b;
+  font-weight: 400;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.label_selected {
+  padding: 5px 5px 0 5px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 !important;
+}
+
+.label_txt {
+  background-color: transparent;
+  background-color: #fff;
+  font-size: 14px;
+  display: inline-block;
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: .1s ease-out;
+  transform-origin: left top;
+  pointer-events: none;
+  padding: 0 5px;
+}
+
+.label_txt_upper {
+  top: 0%;
+  font-size: 12px;
+}  
+
+
+.option_list {
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  margin-top: 15px;
+  background-color: #eee;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.option_item {
+  font-size: 13px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.option_item:hover {
+  background-color: #fff;
+}

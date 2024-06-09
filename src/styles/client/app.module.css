@@ -1,0 +1,19 @@
+.root {
+  margin: 25px 0;
+}
+
+.itemContainer {
+  margin-top: 30px;
+}
+
+.clcPara {
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 10px !important;
+}
+
+.bold {
+  display: inline-block;
+  font-weight: 500;
+  margin: 0 4px;
+}

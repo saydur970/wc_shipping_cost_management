@@ -1,0 +1,27 @@
+.root {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.th, .td {
+  border: 1px solid #ccc;
+  text-align: left;
+  padding: 15px 10px;
+  font-size: 15px;
+}
+
+.row:nth-child(even) {
+  background-color: #ddd;
+}
+
+.crossBtn {
+  background-color: transparent !important;
+  border: none !important;
+}

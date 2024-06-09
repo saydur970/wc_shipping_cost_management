@@ -1,0 +1,26 @@
+.root {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid #2271b1;
+  background-color: #2271b1;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 3px;
+  font-size: 15px !important;
+}
+
+.root:hover {
+  background-color: #007cba;
+  border-color: #007cba;
+}
+
+.disabled {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  cursor: default;
+}
+.disabled:hover {
+  background-color: #6c757d;
+}
